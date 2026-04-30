@@ -1,0 +1,1 @@
+rootProject.name = "UNI_Project_BucketSortAlg"
