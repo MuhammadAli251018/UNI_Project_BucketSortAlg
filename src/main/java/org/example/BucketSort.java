@@ -25,6 +25,11 @@ public class BucketSort {
             }
         }
 
+        System.out.println("------- BEFORE SORTING BUCKETS -------");
+        for (int i = 0; i < buckets.length; i ++) {
+            System.out.println("Bucket " + i + ": " + buckets[i]);
+        }
+
         String[] result = new String[name.length];
         int currentIndex = 0;
         for (List<String> bucket : buckets) {
